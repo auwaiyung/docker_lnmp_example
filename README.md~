@@ -2,7 +2,8 @@
 
 This project is about how to build your Docker LNMP environment in Ubuntu 14.04.
 
-You should install docker first, please see guide in [https://docs.docker.com/engine/installation/linux/ubuntulinux/](https://docs.docker.com/engine/installation/linux/ubuntulinux/). After that, you should install docker-compose.
++ You should install docker first, please see guide in [https://docs.docker.com/engine/installation/linux/ubuntulinux/](https://docs.docker.com/engine/installation/linux/ubuntulinux/). 
++ After that, you should install docker-compose.
 
 ## Here is some version info: 
 ------
