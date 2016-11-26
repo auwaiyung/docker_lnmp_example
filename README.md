@@ -15,7 +15,7 @@ This project is about how to build your Docker LNMP environment in Ubuntu 14.04.
 
 -----
 
-You should run ``docker-compose up`` in the project directory, and the opt directory is virtual.
+You should run ``docker-compose up`` in the `project` directory, and the `opt` directory is virtual.
 
 
 BTW: JUST A NOTE FOR MYSELF
