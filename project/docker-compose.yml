@@ -5,7 +5,7 @@ nginx:
     links:
       - "php"
     volumes:
-      - ~/new_opt/html:/usr/share/nginx/html
+      - ../opt/html:/usr/share/nginx/html
 php:
     build: ./php
     ports:
@@ -14,13 +14,13 @@ php:
       - "mysql"
       - "redis"
     volumes:
-      - ~/new_opt/html:/usr/share/nginx/html
+      - ../opt/html:/usr/share/nginx/html
 mysql:
     build: ./mysql
     ports:
       - "3306:3306"
     volumes:
-      - ~/new_opt/data/mysql:/var/lib/mysql
+      - ../opt/data/mysql:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: 123456
 redis:
