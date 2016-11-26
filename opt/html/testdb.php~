@@ -1,7 +1,8 @@
 <?php
 try {
     $dbh = new PDO('mysql:host=mysql', 'root', 123456);
-
+    $dbh->query('CREATE DATABASE test_docker');
+    $dbh->query('');
     foreach($dbh->query('SHOW DATABASES') as $row) {
         print_r($row);
     }
